@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: steelblue;
+}
+
+.container {
+    width: 30vw;
+    height: 40vh;
+    margin: 25vh auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.input h2 {
+    text-shadow: 1px 1px black;
+    color: bisque;
+    margin: 16px 0;
+}
+
+#user-input {
+    margin: 0 auto;
+    width: 7vw;
+    height: 5vh;
+    font-size: 32px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input:focus {
+    outline: none;
+    background-color: antiquewhite;
+}
+
+.container h2 {
+    text-shadow: 1px 1px black;
+    color: bisque;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.wizard-guesses {
+    background-color: azure;
+    border-radius: 6px;
+    font-size: 24px;
+    padding: 10px;
+    height: 5vh;
+    margin-top: 5px;
+}
+
+#start,
+#reset {
+    width: 7vw;
+    height: 4vh;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(255, 181, 155);
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#reset:hover {
+    background-color: coral;
+}
+
+#start:hover {
+    background-color: coral;
+}
+
+.report-buttons {
+    text-align: center;
+    margin-top: auto;
+}
+
+#lower,
+#correct,
+#higher {
+    width: 7vw;
+    height: 4vh;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    color: azure;
+    text-shadow: 1px 1px black;
+}
+
+#lower,
+#higher {
+    background-color: rgb(233, 51, 87);
+}
+
+#lower:hover {
+    background-color: rgb(219, 3, 46);
+}
+
+#higher:hover {
+    background-color: rgb(219, 3, 46);
+}
+
+#correct {
+    background-color: rgb(21, 196, 21);
+}
+
+#correct:hover {
+    background-color: rgb(1, 161, 1);
+}
